@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>New Web site</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        mark{background-color: aqua;}
+    </style>
+</head>
+<body>
+    <h1>Trying to put images</h1>
+    <p>Aleatoriamente é preciso preencher alguns espaços aqui</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/photo.real.200.jpeg" type="image/jpeg">
+        <source media="(max-width: 1000px)" srcset="imagens/photo.real.750.jpeg" type="image/jpeg">
+       <img src="imagens/photo.real.1000.jpeg" alt="Floresta">
+    </picture>
+
+    <h2>Vamos tentar criar<mark> alguns links</mark> abaixo</h2>
+    <p>Clique <a href="https://www.cursoemvideo.com/curso/html5-css3-modulo1/aulas/modulo-1-2/modulos/capitulo-10-aula-1-links-e-ancoras-em-html5/" target="_blank" rel="external">aqui</a> para abrir o link em outra página</p>
+
+    <p>Clique <a href="site.test.02/index.html">aqui</a> caso queria ver outro site interno</p>
+
+    <h2>Agora iremos praticar criar link para <a href="03 - Como funciona HTML e CSS.pdf" download="Como funciona HTML e CSS" type="pdf">download</a></h2>
+
+    <h2>Vamos praticar aqui algumas listas ordenadas de como deverá ser a minha rotina</h2>
+    <ol type="I">
+        <li>Acordar e ir trabalhar - 05:00 ás 13:00</li>
+        <li>Almoçar </li>
+        <li>Estudar das 15:00 ás 18:00</li>
+    </ol>
+    
+
+    <h2>Agora Iremos preticar colocar áudios no site</h2>
+    <audio preload="auto" controls autoplay >
+        <source src="audios/Videodrome - National Sweetheart.mp3" type="audio/mpeg">
+        <source src="audios/Videodrome-National-Sweetheart.ogg" type="audio/ogg">
+        <p>O seu navegador não suporta áudio, clique <a href="audios/Videodrome - National Sweetheart.mp3" download="Videodrome - National Sweetheart" type="audio/mpeg">aqui</a> para baixar o áudio</p>
+    </audio>
+
+    <h3>Ãgora verá um vídeo que está no Youtube
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/u-FiL72dgI0?si=YUFTM2nIpje9lUUL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></h3>
+</body>
+</html>
