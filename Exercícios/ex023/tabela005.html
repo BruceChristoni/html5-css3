@@ -24,6 +24,14 @@
             border: 1px solid black;
             padding: 8px;
         }
+
+        .cnome{
+            background-color: green;
+        }
+
+        .csexo , .cidade{
+            background-image: linear-gradient(to bottom, red, orange, yellow);
+        }
     </style>
 </head>
 <body>
@@ -31,6 +39,12 @@
     <h1>Exercício de Tabelas</h1>
     
     <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
